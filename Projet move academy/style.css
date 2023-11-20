@@ -1,0 +1,222 @@
+/* general --------*/
+html {
+    width: 100%;
+    background-color: #C0C0C0;
+}
+
+body {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #363636;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font-size: 16px;
+    
+}
+
+nav, h1, h2, h3, button {
+    font-family: 'Economica', sans-serif;
+}
+
+/*  header ------------------------------------------ */
+header {
+    border-top: 2px solid #7e4a7c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header img {
+    padding: 0.5rem;
+}
+header nav {
+    background-color: #7e4a7c;
+    width: 1100px;
+    font-size: 24px;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+header nav ul li {
+    list-style: none;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main --------------------------------------------------*/
+.first-article {
+    display: flex;
+    flex-direction: row;
+}
+section:first-of-type article {
+    width: 70%;
+}
+section:first-of-type aside {
+    width: 30%;
+    align-self: center;
+    margin-left: 3rem;
+    
+}
+section:first-of-type aside a {
+   text-decoration: none;
+   color: #363636;
+}
+/*section:first-of-type*/ article img {
+    float: left;
+    margin-right: 15px;
+}
+section:first-of-type h1 {
+    color: #7e4a7c;
+    font-size:50px;
+    text-align: center;
+}
+section:first-of-type article h2, h2 {
+    color: #b878b5;
+    font-size: 40px;
+}
+h3 {
+    color: #7e4a7c;
+    font-size: 30px;
+}
+.btn-article {
+    background-color: #7e4a7c;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    gap: 2rem;
+}
+article h3 {
+    margin-top: -0.2rem;
+}
+.section-two article:first-of-type button {
+   margin-top: 0.5rem; 
+}
+
+/* tableau ---*/
+table {
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+th, td {
+    border: 1px solid #b878b5; 
+    padding: 1rem;
+}
+thead {
+    background-color: #7e4a7c;
+    color: white;
+}
+tbody tr td:empty {
+    background-color: #ffeefe;
+}
+tbody tr:last-child td {
+      white-space: 1.5rem;
+    }
+tbody tr td:first-of-type {
+    font-weight: bold;
+}
+
+/* form --------*/
+form {
+    border: 2px solid #b878b5;
+    color: #7e4a7c;
+}
+fieldset {
+    border: none;
+}
+.identity {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #ffeefe;
+    margin: 1rem;
+}
+input, select {
+    border: 1px solid #b878b5;
+}
+.selection {
+    display: flex;
+    justify-content: space-around;
+    background-color:  #ffeefe;
+    margin: 1rem;
+
+}
+.sel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 300px;
+}
+.sel legend {
+  width: 20%;  
+}
+.sel select {
+    width: 80%;
+}
+select {
+    width: 300px;
+    margin-right: 0.5rem;
+}
+form button {
+    color: white;
+    background-color: #7e4a7c;
+    border: none;
+    text-transform: uppercase;
+    padding: 0.3rem;
+    width: 70px;
+}
+.btn-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+/* footer ---*/
+.social-media-icons {
+    background-color: #7e4a7c;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.social-media-icons i {
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+.foot {
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: 1rem;
+    height: 80px;
+    
+}
+.foot p {
+    margin-top: -0.1rem;
+}
+.foot p a {
+    color: #DD5735;
+}
+
+
+.foot img {
+    width: 3rem;
+}
+
+
